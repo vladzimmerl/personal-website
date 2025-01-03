@@ -1,0 +1,43 @@
+._card {
+    padding-left: 4rem; /*sides*/
+    padding-right: 4rem; /*sides*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+._about {
+    padding-left: 4rem; /*sides*/
+    padding-right: 4rem; /*sides*/
+}
+._courses {
+    padding-left: 4rem; /*sides*/
+    padding-right: 4rem; /*sides*/
+}
+
+
+
+._p_top {
+    padding-top: 17rem;}
+._p_about-title {
+    padding-top: 1rem;}
+._p_about {
+    padding-top: 2rem;}
+._p_projects {
+    padding-top: 5rem;}
+._p_mcmeet {
+    padding-top: 3rem;}
+._p_ai {
+    padding-top: 2rem;}
+._p_video {
+    padding-top: 1rem;}
+._p_desc {
+    padding-top: 1rem;}
+._p_other {
+    padding-top: 3rem;}
+._p_bg2 {
+    padding-top: 4rem;}
+._p_courses-title {
+    padding-top: 2rem;}
+._p_courses {
+    padding-top: 1rem;}
+._p_bottom {
+    padding-top: 2rem;}

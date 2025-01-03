@@ -1,0 +1,41 @@
+._card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+}
+
+._card-heading-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 1rem;
+    padding-bottom: 0;
+}
+
+._card-title {
+    text-align: left;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+}
+
+._card-p {
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+._card-link-wrapper {
+    padding-top: 1.5rem;
+}
+
+._card-link {
+    font-size: 1.3rem;
+}
+
+@media all and (max-width: 800px) {
+    ._card-title {
+        font-size: 1.2rem;
+    }
+}

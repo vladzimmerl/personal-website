@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+._content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+._content-title {
+    font-size: 2rem;
+}
+
+._content-top {
+    height: 100vh;
+    min-height: 37rem;
+}
+
+._content-bg1 {
+    width: 100%;
+    background-image: url('/back2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+}
+
+
+._content-vid {
+    align-self: center;
+    border: 0;
+    height: 50vh;
+    max-height: 64.7vw;
+    width: 61.9vh;
+    max-width: 80vw;
+    display: block;
+}
+
+._content-bg2 {
+    width: 100%;
+    background-image: url('/vz2bottomlight.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: center;
+}
+
+@media all and (max-width: 800px) {
+    ._content-top {
+        height: 100svh;
+    }
+
+    ._content-bg1 {
+        background-image: url('/backphone3.png');
+    }
+
+    ._content-vid {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        align-self: center;
+        border: 0;
+        max-height: 73vw;
+        max-width: 90vw;
+        display: block;
+    }
+}
+

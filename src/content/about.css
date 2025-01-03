@@ -1,0 +1,13 @@
+._about {
+    
+}
+
+._about-text {
+
+}
+
+@media all and (max-width: 800px) {
+    ._about-text {
+        text-align: justify;
+    }
+}

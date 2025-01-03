@@ -1,0 +1,28 @@
+._courses {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+._courses-course-number-columns {
+
+}
+
+._courses-column-text {
+    text-align: left;
+    white-space: pre;
+    font-size: 1.13rem;
+    padding-top: 0.4rem;
+}
+
+@media all and (max-width: 800px) {
+    ._courses-course-number-columns {
+        display: none;
+    }
+
+    ._courses-column-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+}

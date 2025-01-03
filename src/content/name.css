@@ -1,0 +1,36 @@
+._name {
+    display: flex;
+    flex-direction: column;
+}
+
+._name-title {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+._name-menu-container {
+
+}
+
+._name-section {
+    padding: 0.25rem;
+    display: block;
+    text-decoration: inherit;
+    color: black;
+}
+
+._name-section:hover {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: black;
+}
+
+._name-section:focus {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: black;
+}
+
+@media  all and (max-width: 800px) {
+    ._name-title {
+        font-size: 3rem;
+    }
+}
